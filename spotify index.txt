@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" >
+    <meta name="viewport" content="width=device-width,initial-scale=1.0" >
+    <title>Spotify-Web Player:Music For Everyone</title>
+    <link rel="stylesheet" href="project css style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" rel="stylesheet">
+    <link rel="icon" href="./logo.png" />
+</head>
+<body>
+    <div class="main">
+        <div class="sidebar">
+            <div class="nav">
+                <div class="nav-option" style="opacity:1">
+                    <i class="fas fa-home"></i>
+                    <a href="#">Home</a>
+                </div>
+                <div class="nav-option">
+                    <i class="fas fa-search"></i>
+                    <a href="#">Search</a>
+                </div>
+            </div>
+            <div class="library">
+                <div class="options">
+                    <div class="lib-option nav-option">
+                        <img src="./library_icon.png">
+                        <a href="#">Your Library</a>
+                    </div>
+                    <div class="icons">
+                        <i class="fas fa-plus"></i>
+                        <i class="fas fa-arrow-right"></i>
+                    </div>
+                
+                </div> 
+                <div class="box">
+                    <p class="box-p1"> Create your first playlist</p>
+                    <p class="box-p2">It's easy, we'll help you</p>
+                    <button class="badge"> Create playlist</button>
+                </div>
+                <div class="box">
+                    <p class="box-p1">Let's find some podcast to follow</p>
+                    <p class="box-p2">We'll keep you updated on new episodes</p>
+                    <button class="badge">Browse podcast</button>
+                </div>
+
+            </div>
+        </div>
+
+
+        <div class="main-content">
+            <div class="sticky-nav">
+                <div class="sticky-nav-icons">
+                    <img src="./backward_icon.png">
+                    <img src="./forward_icon.png " class="hide">
+                </div>
+             <div class="sticky-nav-options">
+                <button class="badge nav-item hide">Explore Premium</button>
+                <button class="badge nav-item dark-badge"><i class="fas fa-arrow-circle-down" style="margin-right:5px;"></i>Install App </button>
+                <i class="far fa-user nav-item"></i>
+             </div>
+            </div>
+
+           <h1>Recently Played</h1>
+           <div class="cards-container">
+              <div class="card">
+                <img src="./card1img.jpeg" class="card-img">
+                <p class="card-title">Top 50-Global</p>
+                <p class="card-info">Your daily updates of the most played..</p>
+               </div>
+            </div>
+
+           <h1>Trending now near you</h1>
+           <div class="cards-container">
+             <div class="card">
+                <img src="./card2img.jpeg" class="card-img">
+                <p class="card-title">Top 50-Global</p>
+                <p class="card-info">Your daily updates of the most played..</p>
+             </div>
+             <div class="card">
+                <img src="./card3img.jpeg" class="card-img">
+                <p class="card-title">Top 50-Global</p>
+                <p class="card-info">Your daily updates of the most played..</p>
+             </div>
+             <div class="card">
+                <img src="./card4img.jpeg" class="card-img">
+                <p class="card-title">Top 50-Global</p>
+                <p class="card-info">Your daily updates of the most played..</p>
+             </div>
+             <div class="card">
+                <img src="./card3img.jpeg" class="card-img">
+                <p class="card-title">Top 50-Global</p>
+                <p class="card-info">Your daily updates of the most played..</p>
+             </div>
+             <div class="card">
+                <img src="./card4img.jpeg" class="card-img">
+                <p class="card-title">Top 50-Global</p>
+                <p class="card-info">Your daily updates of the most played..</p>
+             </div>
+           </div>
+           <h1>Featured charts</h1>
+           <div class="cards-container">
+              <div class="card">
+                <img src="./card5img.jpeg" class="card-img">
+                <p class="card-title">Top 50-Global</p>
+                <p class="card-info">Your daily updates of the most played..</p>
+               </div>
+               <div class="card">
+                <img src="./card6img.jpeg" class="card-img">
+                <p class="card-title">Top songs-India</p>
+                <p class="card-info">Your daily updates of the most played..</p>
+               </div>
+               <div class="card">
+                <img src="./card1img.jpeg" class="card-img">
+                <p class="card-title">Top 50-Global</p>
+                <p class="card-info">Your daily updates of the most played..</p>
+               </div>
+            </div>
+            <div class="footer">
+              <div class="line"></div>
+            </div>
+        </div>
+    </div>
+
+
+        <div class="music-bar">
+         <div class="album">
+            <div class="album-img">
+                <img src="album_picture.jpeg" >
+            </div>
+            <div>
+                <p class="p1">Daylight</p>
+                <p class="p2">David Kushner</p>
+            </div>
+            <div>
+                <img src="./album_icon1.png" class="icon1" >
+                <img src="./album_icon2.png" class="icon2" >
+            </div>
+         </div>
+
+
+        <div class="player">
+        <div class="player-controls">
+            <img src="./player_icon1.png" class="player-control-icon">
+            <img src="./player_icon2.png" class="player-control-icon">
+            <img src="./player_icon3.png" class="player-control-icon">
+            <img src="./player_icon4.png" class="player-control-icon">
+            <img src="./player_icon5.png" class="player-control-icon">
+        </div>
+        <div class="playback-bar">
+            <span class="curr-time">00:00</span>
+            <input type="range" min="0" max="100" class="progress-bar" step="1">
+            <span class="total-time">3:33</span>
+        </div>
+        </div>
+
+
+          <div class="controls">
+                <img src="./controls_icon1.png"  class="cntrl-icon1">
+                <img src="./controld_icon2.png"  class="cntrl-icon2">
+                <img src="./controls_icon3.png"  class="cntrl-icon">
+                <img src="./controls_icon4.png"  class="cntrl-icon">
+                <img src="./controls_icon5.png"  class="cntrl-icon5"> 
+            </div>
+          </div>
+        </div>
+</body>
